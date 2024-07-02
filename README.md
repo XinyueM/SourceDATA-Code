@@ -10,7 +10,7 @@ Step 1: Open file: "Experimental Data Process Methods.nb";
            Click "Evaluation"
            Click "Evaluate Notebook"    
            
-Step 2: Open file"Experimental data plotting of figure 2&3"
+Step 2: Open folder "PlotScripts" and check Figure2 and Figure3 where experimental data were plotted.
 
            Click "Evaluation"
            Click "Evaluate Notebook"
@@ -31,7 +31,7 @@ First, the function "metabgensteadystate" simulates the initial steady state of 
 
 Second, function "keepallmetabmaintainsteadystate" keeps simulating the steadystate cells for the number of hours you set. The output of this function is mainly used for plotting the auto and cross correlation functions of protein, metabolite, and growth.  
 
-Finally, function "mxcontkill", simulates the actual fermentation scenario with limited glucose. The output of this function is further used to calculate titer, yield, and productivity. 
+Finally, function "mxcontkilling", simulates the actual fermentation scenario with limited glucose. The output of this function is further used to calculate titer, yield, and productivity. 
 
 
 Step 3: Open file "Simulation Script.nb"; 
