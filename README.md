@@ -42,6 +42,7 @@ This notebook is organized in the order of Openloop, Egos, Megos, Grofee, and Me
 Step 1: Open file Figure 3 and find codes under the red title (*constant protein copy number*) or (*constant growth factor*).
 
 Step 2: Open file "Constant protein sub.nb" and "Constant protein main.nb" if you want to preturb protein copy number. Or, "Constant growth sub.nb" and "Constant growth main.nb" if you want to preturb growth factor.
+
 Similar to the original stochastic model, preturbation simulations use the same main functions with modified sub-functions. To get the cross-correlation you only need to run "metabgensteadystate" and "keepallmetabmaintainsteadystate", while "metabproteinmemfast" is only a sub-function that facilitates plotting. In the sub function notebook you can change the number of cells (numcells) or time for simulation (hours or the fisrt input to call function) or fix protein copy number at a different constant (p=Table[50, {numcells}]). The change we made to the simulation is to keep p at initial value throught all the processes without updating it in the gillespie algorithm as well as before and after cell division. Similarly, in sub-functions of growth pertubation, we fixed growth factor change to be a constant instead of a random draw from a geometic distribution. 
 
  Step 3: Click "Evaluate Notebook" for both sub and main function notebooks after you made changes.
