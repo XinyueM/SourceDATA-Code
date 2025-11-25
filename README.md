@@ -1,8 +1,8 @@
 # SourceData&Code for manuscript
-Exploring Single-Cell Biosynthesis Dynamics for Enhanced Production of Proteins and Chemicals
+Exploring Single-Cell Biosynthetic Noise and Dynamics for Enhanced Betaxanthin Production in Escherichia coli 
 
 Software:  Wolfram Mathematica 12 or 14 (https://www.wolfram.com/mathematica/trial/)
-
+Raw images can be accessed from Zenodo via DOI 10.5281/zenodo.17706309.
 Download all the data and .nb scripts to your local device. You may need to change the address in the "Import" command line in the .nb scripts to process and plot the data.
 # To process experimental data:
 Step 1: Open file: "Experimental Data Process Methods.nb";
